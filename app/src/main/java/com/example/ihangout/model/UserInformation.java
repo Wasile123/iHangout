@@ -12,6 +12,14 @@ public class UserInformation {
 
     }
 
+    public UserInformation(String hometown, String email, String firstName, String lastName, String phoneNumber) {
+        this.hometown = hometown;
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+    }
+
     public String getHometown() {
         return hometown;
     }
