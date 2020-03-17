@@ -1,0 +1,134 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#49A699"
+    tools:context=".AddActiviti"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+
+
+        <include
+            layout="@layout/toolbar_layout"/>
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+
+        <EditText
+            android:id="@+id/edittext_title_add"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_title"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            android:hint="Title"
+            />
+
+        <EditText
+            android:id="@+id/edittext_city_add"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_hometown"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            android:hint="City"
+            />
+
+
+        <EditText
+            android:id="@+id/edittext_street_add"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_street"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            android:hint="Complete Address"
+            />
+
+
+        <EditText
+            android:id="@+id/edittext_date_add"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_date"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            android:hint="Date"
+            />
+
+        <EditText
+            android:id="@+id/edittext_nrplaces_add"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_people"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            android:hint="Number of places left"
+            />
+
+
+
+        <Button
+            android:id="@+id/button_save_add"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_background"
+            android:hint="ADD ACTIVITY"
+            android:textAllCaps="true"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#49A699"
+        android:id="@+id/navigation_view"
+        android:layout_gravity="left"
+        app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/header_layout"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

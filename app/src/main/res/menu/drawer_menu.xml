@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/baseline_profile_white_48dp" />
+
+        <item
+            android:id="@+id/nav_activity"
+            android:title="Activities"
+            android:icon="@drawable/baseline_event_white_48dp"/>
+
+<!--        <item-->
+<!--            android:id="@+id/nav_myactivities"-->
+<!--            android:title="My Activities"-->
+<!--            >-->
+
+<!--        </item>-->
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out"
+            android:icon="@drawable/baseline_logout_white_48dp" />
+
+    </group>
+
+</menu>

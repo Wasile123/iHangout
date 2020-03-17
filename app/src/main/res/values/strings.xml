@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">iHangout</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="ihangout">iHangout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registerButton">REGISTER</string>
+    <string name="already_registered">Already registeredededed?</string>
+    <string name="rlogin">Login</string>
+    <string name="email">Email</string>
+    <string name="buttonRegister">register</string>
+    <string name="logoutButton">Log Out</string>
+    <string name="register">Register!</string>
+    <string name="signup">SIGN UP</string>
+</resources>

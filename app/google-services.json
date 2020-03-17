@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "57087515909",
+    "firebase_url": "https://ihangoutdb.firebaseio.com",
+    "project_id": "ihangoutdb",
+    "storage_bucket": "ihangoutdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57087515909:android:0b93049bc988ebb8016b6c",
+        "android_client_info": {
+          "package_name": "com.example.ihangout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57087515909-tlo75rlm8c5q0hk3ea9kesmlu6a030vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ihangout",
+            "certificate_hash": "70f6dc833c5453c26337a2bd84ece28375ee0e11"
+          }
+        },
+        {
+          "client_id": "57087515909-umre57jh725f4m64hf1odqk548pdubij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1FmFP8mvKXu4m3JljISzrzowzUB2Icx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57087515909-umre57jh725f4m64hf1odqk548pdubij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

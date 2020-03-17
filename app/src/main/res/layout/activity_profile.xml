@@ -1,0 +1,131 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#49A699"
+    tools:context=".ProfileActivity"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
+
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        style="?android:attr/progressBarStyleLarge"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true" />-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+
+
+        <include
+            layout="@layout/toolbar_layout"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_email"
+            android:enabled="false"
+            />
+
+
+        <EditText
+            android:id="@+id/edittext_firstname"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_username"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            />
+
+        <EditText
+            android:id="@+id/edittext_lastname"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_lastname"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            />
+
+        <EditText
+            android:id="@+id/edittext_phonenumber"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            />
+
+        <EditText
+            android:id="@+id/edittext_hometown"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edittext_bg"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_hometown"
+            android:drawableRight="@drawable/ic_edit"
+            android:enabled="true"
+            />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_background"
+            android:hint="SAVE"
+            android:textAllCaps="true"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#49A699"
+        android:id="@+id/navigation_view"
+        android:layout_gravity="left"
+        app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/header_layout"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Search"
+        android:icon="@drawable/baseline_search_white_48dp"
+        android:id="@+id/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_addActiviti"
+        android:title="Add Activity"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="ifRoom|collapseActionView">
+
+    </item>
+
+
+
+
+</menu>
